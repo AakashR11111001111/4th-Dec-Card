@@ -522,35 +522,3 @@ body {
     transform: translateY(0) scale(1);
   }
 }
-
-
-/* Existing CSS code */
-
-/* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
-  .envelope {
-    width: 100%;
-    height: auto;
-    margin-top: -200px;
-    margin-left: 0;
-  }
-
-  .envelope .back .letter {
-    width: 100%;
-    height: auto;
-    top: 0;
-    left: 0;
-  }
-}
-
-/* Media query for screens smaller than 480px */
-@media (max-width: 480px) {
-  .envelope {
-    width: 90%;
-    margin-top: -180px;
-  }
-
-  .envelope .back .letter {
-    padding: 0 10px;
-  }
-}
